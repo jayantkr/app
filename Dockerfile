@@ -10,13 +10,10 @@ RUN apt-get install -y python-dev python-pip
  
 # Create app directory
 ADD . /webapp
-# Add requirements.txt
-#ADD requirements.txt /webapp
- 
+
 # Install uwsgi Python web server
 RUN pip install uwsgi
-# Install app requirements
-#RUN pip install -r requirements.txt
+
 RUN pip install Flask
  
  
