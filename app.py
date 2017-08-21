@@ -7,6 +7,8 @@ import parse
 URL_TO_GET_NAME_SURNAME = 'http://uinames.com/api/'
 URL_TO_GET_JOKE = 'http://api.icndb.com/jokes/random?firstName='
 DEFAULT_STRING = 'Please Try Again'
+HOST = '0.0.0.0'
+PORT = 8000
 
 app = Flask(__name__)
 
@@ -42,4 +44,4 @@ def main():
      
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',port=8000)
+    app.run(host=HOST, port=PORT)
