@@ -1,6 +1,5 @@
-# Inside app folder which is cloned using git
 #python App
-
+# Inside app folder which is cloned using git
 Prerequisite:
 1.Docker (https://www.liquidweb.com/kb/how-to-install-docker-on-ubuntu-14-04-lts/ :Installation link for reference)
 2.Ubuntu 14.04
