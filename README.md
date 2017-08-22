@@ -10,7 +10,9 @@ Prerequisite:
 docker build --no-cache --rm -t travcunn/flask .
 docker run -d -p 5000:8000 travcunn/flask
 
+
 #Debuging commands:
+##you can get jokes using  any browser via url  http://ip:5000/
 docker ps
 docker inspect container-id
 docker images
